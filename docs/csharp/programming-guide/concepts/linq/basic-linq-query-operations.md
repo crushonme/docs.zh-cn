@@ -69,7 +69,7 @@ ms.lasthandoff: 11/21/2017
   
  有关详细信息，请参阅 [where 子句](../../../../csharp/language-reference/keywords/where-clause.md)。  
   
-## <a name="ordering"></a>订购  
+## <a name="ordering"></a>排序  
  对返回的数据进行排序通常很方便。 `orderby` 子句根据要排序类型的默认比较器，对返回序列中的元素排序。 例如，基于 `Name` 属性，可将下列查询扩展为对结果排序。 由于 `Name` 是字符串，默认比较器将按字母顺序从 A 到 Z 进行排序。  
   
  [!code-csharp[csLINQGettingStarted#27](../../../../csharp/programming-guide/concepts/linq/codesnippet/CSharp/basic-linq-query-operations_5.cs)]  
